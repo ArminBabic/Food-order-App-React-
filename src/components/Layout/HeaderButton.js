@@ -3,7 +3,7 @@ import style from "./HeaderButton.module.css";
 
 const HeaderButton = (props) => {
   return (
-    <button className={style.button}>
+    <button onClick={props.onClick} className={style.button}>
       <span className={style.icon}>
         <CartIcon />
       </span>
